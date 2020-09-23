@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k8s-spring-demo
+spec:
+  replicas: 1
+  selector:
+    matchLabel:
+	  app: k8s-spring-demo
+  template: 
+    metadata:
+      labels:
+        app: k8s-spring-demo
+    spec:
+      containers:
+      - name: k8s-spring-demo
+        image: spitbreak/k8s-spring-demo:latest
