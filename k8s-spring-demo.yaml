@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: k8s-spring-demo
-        image: spitbreak/k8s-spring-demo:1.0.0
+        image: spitbreak/k8s-spring-demo:latest
