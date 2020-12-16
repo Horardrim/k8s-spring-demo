@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: k8s-spring-demo
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    content-type: text/html
+    encoding: UTF-8
