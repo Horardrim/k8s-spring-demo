@@ -8,3 +8,15 @@ spring:
     mode: HTML5
     content-type: text/html
     encoding: UTF-8
+
+  datasource:
+    url: jdbc:postgresql://172.17.0.3:5432/grafana_data_source
+    username: postgres
+    password: ma3aY03h1!
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
