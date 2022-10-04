@@ -17,3 +17,6 @@ II. A sample spring boot controller.
 
 v1.1.0:
 I. Try to use spring boot thymeleaf framework.
+
+v1.2.0:
+support postgres db.
